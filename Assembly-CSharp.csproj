@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraStable.cs" />
+    <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
+    <Compile Include="Assets\Scripts\LapTimeManager.cs" />
+    <Compile Include="Assets\Scripts\LapComplete.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
