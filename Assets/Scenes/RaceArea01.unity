@@ -768,13 +768,14 @@ GameObject:
   - component: {fileID: 676816760}
   - component: {fileID: 676816759}
   - component: {fileID: 676816758}
+  - component: {fileID: 676816762}
   m_Layer: 0
   m_Name: LapCompleteTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &676816758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -851,6 +852,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &676816762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676816757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f370fcc1f24a1f844b44325f93ec2b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LapCompleteTrig: {fileID: 676816757}
+  HalfLapTrig: {fileID: 1882625755}
+  MinuteDisplay: {fileID: 668222322}
+  SecondDisplay: {fileID: 253365889}
+  MilliDisplay: {fileID: 66573947}
+  LapTimeBox: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,7 +1615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1882625756
 BoxCollider:
   m_ObjectHideFlags: 0
