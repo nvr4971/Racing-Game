@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 25182744}
   m_Layer: 0
   m_Name: Mark11
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,6 +289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400022, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Target
+      value: 
+      objectReference: {fileID: 1825759734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
 --- !u!1 &66573947
@@ -384,7 +388,7 @@ GameObject:
   - component: {fileID: 76077158}
   m_Layer: 0
   m_Name: Mark06
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -527,7 +531,7 @@ GameObject:
   - component: {fileID: 127246630}
   m_Layer: 0
   m_Name: Mark05
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -622,7 +626,7 @@ GameObject:
   - component: {fileID: 203772462}
   m_Layer: 0
   m_Name: Mark01
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,7 +1006,7 @@ GameObject:
   - component: {fileID: 263117143}
   m_Layer: 0
   m_Name: Mark25
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1176,7 +1180,7 @@ GameObject:
   - component: {fileID: 269032198}
   m_Layer: 0
   m_Name: Mark15
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1562,7 +1566,7 @@ GameObject:
   - component: {fileID: 352041621}
   m_Layer: 0
   m_Name: Mark08
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1657,7 +1661,7 @@ GameObject:
   - component: {fileID: 382295871}
   m_Layer: 0
   m_Name: Mark17
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2128,7 +2132,7 @@ GameObject:
   - component: {fileID: 705882884}
   m_Layer: 0
   m_Name: Mark21
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2223,7 +2227,7 @@ GameObject:
   - component: {fileID: 720683790}
   m_Layer: 0
   m_Name: Mark19
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2318,7 +2322,7 @@ GameObject:
   - component: {fileID: 748195297}
   m_Layer: 0
   m_Name: Mark16
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2492,7 +2496,7 @@ GameObject:
   - component: {fileID: 822304663}
   m_Layer: 0
   m_Name: Mark14
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2587,7 +2591,7 @@ GameObject:
   - component: {fileID: 848055906}
   m_Layer: 0
   m_Name: Mark02
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2995,7 +2999,7 @@ GameObject:
   - component: {fileID: 1148315728}
   m_Layer: 0
   m_Name: Mark23
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3090,7 +3094,7 @@ GameObject:
   - component: {fileID: 1203347087}
   m_Layer: 0
   m_Name: Mark10
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3185,7 +3189,7 @@ GameObject:
   - component: {fileID: 1253863873}
   m_Layer: 0
   m_Name: Mark03
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3280,7 +3284,7 @@ GameObject:
   - component: {fileID: 1273699043}
   m_Layer: 0
   m_Name: Mark09
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3375,7 +3379,7 @@ GameObject:
   - component: {fileID: 1431122095}
   m_Layer: 0
   m_Name: Mark22
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3470,7 +3474,7 @@ GameObject:
   - component: {fileID: 1546365269}
   m_Layer: 0
   m_Name: Mark13
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3723,7 +3727,7 @@ GameObject:
   - component: {fileID: 1767432129}
   m_Layer: 0
   m_Name: Mark12
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3900,6 +3904,7 @@ GameObject:
   - component: {fileID: 1825759737}
   - component: {fileID: 1825759736}
   - component: {fileID: 1825759735}
+  - component: {fileID: 1825759738}
   m_Layer: 0
   m_Name: Tracker
   m_TagString: Untagged
@@ -3983,6 +3988,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825759733}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1825759738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825759733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58f0403cb33f72469b46820c3654edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheMarker: {fileID: 1825759733}
+  MarkList: []
+  MarkTracker: 0
 --- !u!1 &1847775661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4236,7 +4256,7 @@ GameObject:
   - component: {fileID: 1916670205}
   m_Layer: 0
   m_Name: Mark20
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4331,7 +4351,7 @@ GameObject:
   - component: {fileID: 1961313936}
   m_Layer: 0
   m_Name: Mark07
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4715,7 +4735,7 @@ GameObject:
   - component: {fileID: 2092797169}
   m_Layer: 0
   m_Name: Mark26
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4810,7 +4830,7 @@ GameObject:
   - component: {fileID: 2112074143}
   m_Layer: 0
   m_Name: Mark24
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5018,7 +5038,7 @@ GameObject:
   - component: {fileID: 2132872738}
   m_Layer: 0
   m_Name: Mark18
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5113,7 +5133,7 @@ GameObject:
   - component: {fileID: 2146043389}
   m_Layer: 0
   m_Name: Mark04
-  m_TagString: Untagged
+  m_TagString: OpponentMark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
