@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class OpponentCarTrack : MonoBehaviour
 {
@@ -11,11 +12,7 @@ public class OpponentCarTrack : MonoBehaviour
     void Start()
     {
         MarkTracker = 0;
-
-        if (MarkList == null)
-        {
-            MarkList = GameObject.FindGameObjectsWithTag("OpponentMark");
-        }
+        MarkList = GameObject.FindGameObjectsWithTag("OpponentMark").OrderBy(Mark => Mark.name).ToArray();
     }
 
     void Update()
@@ -28,11 +25,14 @@ public class OpponentCarTrack : MonoBehaviour
         if (collision.gameObject.tag == "OpponentCar")
         {
             this.GetComponent<BoxCollider>().enabled = false;
+
             MarkTracker += 1;
+
             if (MarkTracker == MarkList.Length)
             {
                 MarkTracker = 0;
             }
+
             yield return new WaitForSeconds(1);
             this.GetComponent<BoxCollider>().enabled = true;
         }
