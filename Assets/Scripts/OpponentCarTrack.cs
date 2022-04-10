@@ -6,13 +6,15 @@ using System.Linq;
 public class OpponentCarTrack : MonoBehaviour
 {
     public GameObject TheMarker;
-    public GameObject[] MarkList;
+    public GameObject WaypointMarkers;
+    public Transform[] MarkList;
     public int MarkTracker;
 
     void Start()
     {
         MarkTracker = 0;
-        MarkList = GameObject.FindGameObjectsWithTag("OpponentMark").OrderBy(Mark => Mark.name).ToArray();
+        MarkList = WaypointMarkers.GetComponentsInChildren<Transform>();
+        MarkList = MarkList.Skip(1).ToArray();
     }
 
     void Update()
