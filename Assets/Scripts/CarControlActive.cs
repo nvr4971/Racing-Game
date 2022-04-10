@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CarControlActive : MonoBehaviour
 {
-    public GameObject CarControl;
+    public GameObject PlayerCar;
+    public GameObject OpponentCar;
 
     void Start()
     {
-        (CarControl.GetComponent("CarController") as MonoBehaviour).enabled = true;
+        (PlayerCar.GetComponent("CarController") as MonoBehaviour).enabled = true;
+        (OpponentCar.GetComponent("CarAIControl") as MonoBehaviour).enabled = true;
     }
 }
