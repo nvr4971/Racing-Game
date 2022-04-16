@@ -12,37 +12,52 @@ public class LapComplete : MonoBehaviour
 	public GameObject SecondDisplay;
 	public GameObject MilliDisplay;
 
-	public GameObject LapTimeBox;
+	//public GameObject LapTimeBox;
+
+	public GameObject LapCounter;
+	public int LapsDone;
+
+	public float RawTime;
 
 	void OnTriggerEnter()
 	{
-		if (LapTimeManager.SecondCount <= 9)
-		{
-			SecondDisplay.GetComponent<Text>().text = "0" + LapTimeManager.SecondCount + ".";
-		}
-		else
-		{
-			SecondDisplay.GetComponent<Text>().text = "" + LapTimeManager.SecondCount + ".";
-		}
+		LapsDone += 1;
 
-		if (LapTimeManager.MinuteCount <= 9)
+		RawTime = PlayerPrefs.GetFloat("RawTime");
+		if (LapTimeManager.RawTime <= RawTime)
 		{
-			MinuteDisplay.GetComponent<Text>().text = "0" + LapTimeManager.MinuteCount + ".";
-		}
-		else
-		{
-			MinuteDisplay.GetComponent<Text>().text = "" + LapTimeManager.MinuteCount + ".";
-		}
+			if (LapTimeManager.SecondCount <= 9)
+			{
+				SecondDisplay.GetComponent<Text>().text = "0" + LapTimeManager.SecondCount + ".";
+			}
+			else
+			{
+				SecondDisplay.GetComponent<Text>().text = "" + LapTimeManager.SecondCount + ".";
+			}
 
-		MilliDisplay.GetComponent<Text>().text = "" + LapTimeManager.MilliCount;
+			if (LapTimeManager.MinuteCount <= 9)
+			{
+				MinuteDisplay.GetComponent<Text>().text = "0" + LapTimeManager.MinuteCount + ".";
+			}
+			else
+			{
+				MinuteDisplay.GetComponent<Text>().text = "" + LapTimeManager.MinuteCount + ".";
+			}
+
+			MilliDisplay.GetComponent<Text>().text = "" + LapTimeManager.MilliCount;
+		}
 
 		PlayerPrefs.SetInt("MinSave", LapTimeManager.MinuteCount);
 		PlayerPrefs.SetInt("SecSave", LapTimeManager.SecondCount);
 		PlayerPrefs.SetFloat("MiliSave", LapTimeManager.MilliCount);
+		PlayerPrefs.SetFloat("RawTime", LapTimeManager.RawTime);
 
 		LapTimeManager.MinuteCount = 0;
 		LapTimeManager.SecondCount = 0;
 		LapTimeManager.MilliCount = 0;
+		LapTimeManager.RawTime = 0;
+
+		LapCounter.GetComponent<Text>().text = "" + LapsDone;
 
 		HalfLapTrig.SetActive(true);
 		LapCompleteTrig.SetActive(false);
