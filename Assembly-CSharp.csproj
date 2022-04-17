@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F760AE89-BE88-60DD-B60A-9B4FC79CB972}</ProjectGuid>
+    <ProjectGuid>{8E1937DF-9CC7-0777-2BCC-0A8E8A9773B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,11 +60,11 @@
     <Compile Include="Assets\Scripts\CarControlActive.cs" />
     <Compile Include="Assets\Scripts\OpponentCarTrack.cs" />
     <Compile Include="Assets\Scripts\CameraStable.cs" />
+    <Compile Include="Assets\Scripts\LoadLapTime.cs" />
     <Compile Include="Assets\Scripts\CameraChange.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
-    <Compile Include="Assets\Scripts\LoadLapTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -667,7 +667,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{307E6C8C-1926-21B2-D5B9-F54C256AF37E}</Project>
+      <Project>{F2968370-FF80-FD52-1203-9B168B04E4D3}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
