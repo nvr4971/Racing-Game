@@ -23,7 +23,7 @@ public class LapComplete : MonoBehaviour
 
     void Update()
     {
-        if (LapsDone == 2)
+        if (LapsDone == 1)
 		{
 			RaceFinish.SetActive(true);
 		}

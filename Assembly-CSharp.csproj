@@ -64,9 +64,9 @@
     <Compile Include="Assets\Scripts\CameraChange.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
-    <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
-    <Compile Include="Assets\Scripts\FinishRotate.cs" />
     <Compile Include="Assets\Scripts\RaceFinish.cs" />
+    <Compile Include="Assets\Scripts\FinishRotate.cs" />
+    <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
