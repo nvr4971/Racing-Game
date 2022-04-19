@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\RaceFinish.cs" />
     <Compile Include="Assets\Scripts\FinishRotate.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
+    <Compile Include="Assets\Scripts\ButtonOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
