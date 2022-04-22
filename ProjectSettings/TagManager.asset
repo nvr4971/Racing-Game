@@ -6,6 +6,7 @@ TagManager:
   tags:
   - OpponentCar
   - OpponentMark
+  - PlayerCar
   layers:
   - Default
   - TransparentFX

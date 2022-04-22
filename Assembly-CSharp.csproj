@@ -64,10 +64,12 @@
     <Compile Include="Assets\Scripts\CameraChange.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
+    <Compile Include="Assets\Scripts\ButtonOptions.cs" />
     <Compile Include="Assets\Scripts\RaceFinish.cs" />
     <Compile Include="Assets\Scripts\FinishRotate.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
-    <Compile Include="Assets\Scripts\ButtonOptions.cs" />
+    <Compile Include="Assets\Scripts\GlobalCar.cs" />
+    <Compile Include="Assets\Scripts\CarChoice.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
