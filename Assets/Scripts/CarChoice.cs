@@ -7,6 +7,7 @@ public class CarChoice : MonoBehaviour
     //1=Red, 2=Blue
     public GameObject RedBody;
     public GameObject BlueBody;
+    public GameObject GreenBody;
     public int CarImport;
 
     void Start()
@@ -20,6 +21,11 @@ public class CarChoice : MonoBehaviour
         if (CarImport == 2)
         {
             BlueBody.SetActive(true);
+        }
+
+        if (CarImport == 3)
+        {
+            GreenBody.SetActive(true);
         }
     }
 }

@@ -9,6 +9,11 @@ public class GlobalCash : MonoBehaviour
     public static int TotalCash;
     public GameObject CashDisplay;
 
+    void Start()
+    {
+        TotalCash = PlayerPrefs.GetInt("SavedCash");
+    }
+
     void Update()
     {
         CashValue = TotalCash;

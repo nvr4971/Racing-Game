@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GlobalCar : MonoBehaviour
 {
-    public static int CarType; //1=Red, 2=Blue
+    public static int CarType; //1=Red, 2=Blue, 3=Green
     public GameObject ModePanel;
 
     public void RedCar()
@@ -16,6 +16,12 @@ public class GlobalCar : MonoBehaviour
     public void BlueCar()
     {
         CarType = 2;
+        ModePanel.SetActive(true);
+    }
+
+    public void GreenCar()
+    {
+        CarType = 3;
         ModePanel.SetActive(true);
     }
 }

@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\LapTimeManager.cs" />
     <Compile Include="Assets\Scripts\CarControlActive.cs" />
     <Compile Include="Assets\Scripts\OpponentCarTrack.cs" />
+    <Compile Include="Assets\Scripts\ModeTime.cs" />
     <Compile Include="Assets\Scripts\GlobalCash.cs" />
     <Compile Include="Assets\Scripts\ScoreScripts\BlueScore.cs" />
     <Compile Include="Assets\Scripts\GlobalCar.cs" />
@@ -74,11 +75,15 @@
     <Compile Include="Assets\Scripts\LapComplete.cs" />
     <Compile Include="Assets\Scripts\ButtonOptions.cs" />
     <Compile Include="Assets\Scripts\RaceFinish.cs" />
+    <Compile Include="Assets\Scripts\SkyRotate.cs" />
     <Compile Include="Assets\Scripts\CreditExit.cs" />
     <Compile Include="Assets\Scripts\FinishRotate.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
-    <Compile Include="Assets\Scripts\ModeTime.cs" />
-    <Compile Include="Assets\Scripts\SkyRotate.cs" />
+    <Compile Include="Assets\Scripts\Unlockables.cs" />
+    <Compile Include="Assets\Scripts\UnlockedObjects.cs" />
+    <Compile Include="Assets\Scripts\MenuAppear.cs" />
+    <Compile Include="Assets\Scripts\Positoning\PosUp.cs" />
+    <Compile Include="Assets\Scripts\Positoning\PosDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
