@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ButtonOptions : MonoBehaviour
 {
-    public void QuickPlay()
+	public void QuickPlay()
 	{
-		SceneManager.LoadScene(2);
+		GlobalCar.CarType = Random.Range(1, 2);
+		ModeSelect.RaceMode = 0;
+		SceneManager.LoadScene(Random.Range(2, 3));
 	}
 
 	public void CustomGame()
@@ -33,7 +35,12 @@ public class ButtonOptions : MonoBehaviour
 	}
 
 	public void Credits()
-    {
+	{
 		SceneManager.LoadScene(4);
-    }
+	}
+
+	public void ExitGame()
+	{
+		Application.Quit();
+	}
 }

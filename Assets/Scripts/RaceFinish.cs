@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Vehicles.Car;
+using UnityEngine.SceneManagement;
 
 public class RaceFinish : MonoBehaviour
 {
@@ -29,6 +30,14 @@ public class RaceFinish : MonoBehaviour
 			FinishMusic.Play();
 			GlobalCash.TotalCash += 100;
 			PlayerPrefs.SetInt("SavedCash", GlobalCash.TotalCash);
+		}
+	}
+
+    void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			SceneManager.LoadScene(0);
 		}
 	}
 }

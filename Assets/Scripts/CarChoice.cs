@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarChoice : MonoBehaviour
 {
-    //1=Red, 2=Blue
+    //1=Red, 2=Blue, 3=Green
     public GameObject RedBody;
     public GameObject BlueBody;
     public GameObject GreenBody;
