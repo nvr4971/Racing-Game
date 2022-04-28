@@ -13,9 +13,9 @@ public class RaceFinish : MonoBehaviour
 	public GameObject CompleteTrig;
 	public AudioSource FinishMusic;
 
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
 	{
-		if (ModeTime.isTimeMode == false)
+		if (ModeTime.isTimeMode == false && other.tag == "CarPos")
 		{
 			this.GetComponent<BoxCollider>().enabled = false;
 			MyCar.SetActive(false);
